@@ -1,0 +1,22 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "How to make a chat application using Socket.IO with node js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" :"nodemon index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "express",
+    "node"
+  ],
+  "author": "chiragmehta900",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^2.3.0",
+    "cors": "^2.8.5"
+  }
+}
